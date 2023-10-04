@@ -1,5 +1,5 @@
 # Mastermind game or code breaker
-
+# you can take any 4 digit number, 5 digit number or anything, you just have to take that number according to the randrange 
 import random
 
 num = random.randrange(1000,10000)
@@ -14,7 +14,7 @@ else:
     while(n!=num):
         # variable inccrements every time the loop is executed
         cnt+=1
-
+        # for number of digits which are guessed correctly 
         count = 0
         # explicit type conversion of an integer to a string in order to ease extracting digits
         n =  str(n)
@@ -25,7 +25,7 @@ else:
         # correct[] list stores digits which are correct
         correct = []*4
 
-        # the for loop runs 4 times, since it's a 4 digit number
+        # the for loop runs 4 times, since it's a 4 digit number, if we take 5 digit number, take range(0,5)...
         for i in range(0,4):
             if(n[i]==num[i]):
                 # number of digits guessed correctly
