@@ -1,4 +1,4 @@
-# python_programs
+# python_programs_project
 
 Here are some basic, mid, advanced level python programs which you can practice. 
 <br>
