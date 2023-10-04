@@ -51,3 +51,5 @@ else:
     if(n==num):
         cnt += 1
         print("you've become mastermind, it took only ",cnt," tries to guess the number")
+        if(cnt>15):
+            print("you could have done better!!")
