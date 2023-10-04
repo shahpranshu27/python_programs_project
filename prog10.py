@@ -38,6 +38,7 @@ else:
         if((count<4)and (count!=0)):
             print("not quite the number, but you guessed ",count," digits correctly!!")
             print("Also these numbers in your input were correct.")
+            # to show which digits are correctly placed
             for k in correct:
                print(k, end=' ')
             print('\n')
