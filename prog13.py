@@ -1,3 +1,5 @@
+# Rock, Paper, Scissor Game. Very easy to play
+
 import random
 r,p,s=0,0,0
 x=1
